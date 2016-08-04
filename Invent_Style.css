@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+    font-family: "Arial";
+    text-align: center;
+    background-color: blue; 
+}
+
+h1 span {
+    color: red;
+    }
+
+body {
+    background-color: black;
+    color: white;
+}
