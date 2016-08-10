@@ -45,9 +45,6 @@ ul.tab li a {
 /* Change background color of links on hover */
 ul.tab li a:hover {background-color: #ddd;}
 
-/* Create an active/current tablink class */
-ul.tab li a:focus, .active {background-color: #ccc;}
-
 #active {
     background-color: #333333;
 }
