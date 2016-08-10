@@ -14,11 +14,13 @@ body {
     color: white;
 }
 
+h2 {
+    position: relative;
+    top: -200px;
+}
 
 
-
-
-/* Style the list */
+/* TABBES STUFF */
 ul.tab {
     /*list-style-type: none;
     margin: 0;
@@ -30,7 +32,7 @@ ul.tab {
     margin: 0;
     padding: 0;
     background-color: #666666;
-    width: 400px;
+    width: 275px;
     /*height: 100px;*/
     /*overflow: scroll;*/
 }
