@@ -20,16 +20,23 @@ body {
 
 /* Style the list */
 ul.tab {
-    list-style-type: none;
+    /*list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 1px solid #ccc;
+    background-color: #666666;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     background-color: #666666;
+    width: 400px;
+    /*height: 100px;*/
+    /*overflow: scroll;*/
 }
 
 /* Float the list items side by side */
-ul.tab li {float: left;}
+ul.tab li {float: clear;}
 
 /* Style the links inside the list items */
 ul.tab li a {
