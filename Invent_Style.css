@@ -14,27 +14,17 @@ body {
     color: white;
 }
 
-div.content {
-    position: absolute;
-    top: 125px;
-    left: 120px;
-}
-
 
 /* top TABS STUFF */
 ul.toptabs {
-    /*position: fixed;*/
+    position: fixed;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #666666;
-   
-    /*list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #666666;*/
+    width: 98.7%;
 }
 
 /* Float the list items side by side */
@@ -66,8 +56,11 @@ ul.sidetabs {
     list-style-type: none;
     margin: 10;
     padding: 0;
+    float: left;
+    top: 130px;
     background-color: #666666;
-    width: 90px;
+    
+	
 }
 
 /* Float the list items side by side */
@@ -77,9 +70,11 @@ ul.sidetabs li {float: clear;}
 ul.sidetabs li a {
     display: inline-block;
     color: red;
-    text-align: center;
+    text-align: left;
     padding: 5px 16px;
     text-decoration: none;
+	width: 75px;
+	background-color: #666666;
     transition: 0.3s;
     font-size: 14px;
 }
@@ -87,10 +82,22 @@ ul.sidetabs li a {
 /* Change background color of links on hover */
 ul.sidetabs li a:hover {
     background-color: #ddd;
-    width: 58px;
+    width: 75px;
     text-align: left;
     }
 
 #active {
     background-color: #333333;
+}
+
+
+
+/*Content stuff*/
+div.content {
+    position: relative;
+    top: 60px;
+}
+
+div.has-sidebar {
+    left: 125px;
 }
