@@ -17,12 +17,13 @@ body {
 div.content {
     position: absolute;
     top: 125px;
-    left: 215px;
+    left: 120px;
 }
 
 
 /* top TABS STUFF */
 ul.toptabs {
+    /*position: fixed;*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -61,11 +62,12 @@ ul.toptabs li a:hover {background-color: #ddd;}
 
 /* side TABS STUFF */
 ul.sidetabs {
+    position: fixed;
     list-style-type: none;
-    margin: 0;
+    margin: 10;
     padding: 0;
     background-color: #666666;
-    width: 125px;
+    width: 90px;
 }
 
 /* Float the list items side by side */
@@ -74,16 +76,20 @@ ul.sidetabs li {float: clear;}
 /* Style the links inside the list items */
 ul.sidetabs li a {
     display: inline-block;
-    color: white;
+    color: red;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 16px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 /* Change background color of links on hover */
-ul.sidetabs li a:hover {background-color: #ddd;}
+ul.sidetabs li a:hover {
+    background-color: #ddd;
+    width: 58px;
+    text-align: left;
+    }
 
 #active {
     background-color: #333333;
