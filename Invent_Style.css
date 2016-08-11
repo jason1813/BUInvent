@@ -16,33 +16,31 @@ body {
 
 div.content {
     position: absolute;
-    top: 65px;
-    left: 260px;
+    top: 125px;
+    left: 215px;
 }
 
 
-/* TABBES STUFF */
-ul.tab {
+/* top TABS STUFF */
+ul.toptabs {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #666666;
+   
     /*list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #666666;*/
-    /*width: 235px;*/
-    /*height: 100px;*/
-    /*overflow: scroll;*/
 }
 
 /* Float the list items side by side */
-ul.tab li {float: left;}
+ul.toptabs li {float: left;}
 
 /* Style the links inside the list items */
-ul.tab li a {
+ul.toptabs li a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -53,7 +51,39 @@ ul.tab li a {
 }
 
 /* Change background color of links on hover */
-ul.tab li a:hover {background-color: #ddd;}
+ul.toptabs li a:hover {background-color: #ddd;}
+
+#active {
+    background-color: #333333;
+}
+
+
+
+/* side TABS STUFF */
+ul.sidetabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #666666;
+    width: 125px;
+}
+
+/* Float the list items side by side */
+ul.sidetabs li {float: clear;}
+
+/* Style the links inside the list items */
+ul.sidetabs li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.sidetabs li a:hover {background-color: #ddd;}
 
 #active {
     background-color: #333333;
