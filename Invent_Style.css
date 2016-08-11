@@ -1,13 +1,11 @@
 h1 {
+    position: fixed;
     color: red;
     font-family: "Arial";
+    width: 100%;
     text-align: center;
     background-color: blue; 
 }
-
-h1 span {
-    color: red;
-    }
 
 body {
     background-color: black;
@@ -19,6 +17,7 @@ body {
 ul.toptabs {
     position: fixed;
     list-style-type: none;
+    top: 80px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -94,10 +93,11 @@ ul.sidetabs li a:hover {
 
 /*Content stuff*/
 div.content {
-    position: relative;
-    top: 60px;
+    position: absolute;
+    top: 125px;
+    overflow: auto;
 }
 
 div.has-sidebar {
-    left: 125px;
+    left: 122px;
 }
