@@ -17,7 +17,7 @@ h1 {
 }
 
 body {
-    background-color: black;
+    background-color: hsl(0, 0%, 14%);
     color: white;
     margin:0;
     padding:0;
@@ -32,7 +32,7 @@ ul.toptabs {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: 1px solid #8c8c8c;
     background-color: #666666;
     width: 100%;
 }
