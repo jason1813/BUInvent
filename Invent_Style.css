@@ -1,38 +1,40 @@
+body {
+    background-color: hsl(0, 0%, 14%);
+    color: white;
+    margin:0;
+    padding:0;
+}
+
 h1 {
+    position: fixed;
     color: red;
     font-family: "Arial";
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
     text-align: center;
-    background-color: blue; 
-}
-
-h1 span {
-    color: red;
-    }
-
-body {
+    margin-top:0;
     background-color: black;
-    color: white;
 }
 
 
-
-
-
-/* Style the list */
-ul.tab {
+/* top TABS STUFF */
+ul.toptabs {
+    position: fixed;
     list-style-type: none;
+    top: 80px;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    border: 1px solid #ccc;
+    border: 1px solid #8c8c8c;
     background-color: #666666;
+    width: 100%;
 }
 
 /* Float the list items side by side */
-ul.tab li {float: left;}
+ul.toptabs li {float: left;}
 
 /* Style the links inside the list items */
-ul.tab li a {
+ul.toptabs li a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -43,8 +45,56 @@ ul.tab li a {
 }
 
 /* Change background color of links on hover */
-ul.tab li a:hover {background-color: #ddd;}
+ul.toptabs li a:hover {background-color: #ddd;}
 
 #active {
     background-color: #333333;
+}
+
+
+
+/* side TABS STUFF */
+ul.sidetabs {
+    position: fixed;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    float: left;
+    top: 130px;
+    background-color: #666666;
+}
+
+/* Float the list items side by side */
+ul.sidetabs li {float: clear;}
+
+/* Style the links inside the list items */
+ul.sidetabs li a {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 5px 16px;
+    text-decoration: none;
+	width: 75px;
+	background-color: #666666;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Change background color of links on hover */
+ul.sidetabs li a:hover {
+    background-color: #ddd;
+    width: 75px;
+    }
+
+
+/*Content stuff*/
+div.content {
+    position: absolute;
+    top: 125px;
+    z-index: -1;
+    overflow: auto;
+}
+
+div.has-sidebar {
+    left: 122px;
 }
