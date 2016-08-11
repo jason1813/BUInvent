@@ -1,3 +1,10 @@
+body {
+    background-color: hsl(0, 0%, 14%);
+    color: white;
+    margin:0;
+    padding:0;
+}
+
 h1 {
     position: fixed;
     color: red;
@@ -6,21 +13,8 @@ h1 {
     height: 80px;
     line-height: 80px;
     text-align: center;
-
-     /*width: 250px;
-  height: 100px;
-  line-height: 100px;
-  text-align: center;*/
-
     margin-top:0;
     background-color: black;
-}
-
-body {
-    background-color: hsl(0, 0%, 14%);
-    color: white;
-    margin:0;
-    padding:0;
 }
 
 
@@ -31,7 +25,6 @@ ul.toptabs {
     top: 80px;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     border: 1px solid #8c8c8c;
     background-color: #666666;
     width: 100%;
@@ -64,13 +57,11 @@ ul.toptabs li a:hover {background-color: #ddd;}
 ul.sidetabs {
     position: fixed;
     list-style-type: none;
-    margin: 10;
+    margin-top: 20px;
     padding: 0;
     float: left;
     top: 130px;
     background-color: #666666;
-    
-	
 }
 
 /* Float the list items side by side */
@@ -79,7 +70,7 @@ ul.sidetabs li {float: clear;}
 /* Style the links inside the list items */
 ul.sidetabs li a {
     display: inline-block;
-    color: red;
+    color: white;
     text-align: left;
     padding: 5px 16px;
     text-decoration: none;
@@ -93,13 +84,7 @@ ul.sidetabs li a {
 ul.sidetabs li a:hover {
     background-color: #ddd;
     width: 75px;
-    text-align: left;
     }
-
-#active {
-    background-color: #333333;
-}
-
 
 
 /*Content stuff*/
