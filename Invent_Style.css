@@ -95,6 +95,7 @@ ul.sidetabs li a:hover {
 div.content {
     position: absolute;
     top: 125px;
+    z-index: -1;
     overflow: auto;
 }
 
