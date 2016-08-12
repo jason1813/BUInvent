@@ -3,6 +3,7 @@ body {
     color: white;
     margin:0;
     padding:0;
+    overflow: visible;
 }
 
 h1 {
@@ -89,7 +90,16 @@ ul.sidetabs li a:hover {
 
 /*Content stuff*/
 div.content {
+
+    /*display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;*/
+
+    display: block;
     position: absolute;
+    left: 20px;
+    /*margin-top: 125px;*/
     top: 125px;
     z-index: -1;
     overflow: auto;
@@ -97,4 +107,24 @@ div.content {
 
 div.has-sidebar {
     left: 122px;
+}
+
+div.content h2 {
+    font-size: 40px;
+}
+
+div.content h3 {
+    font-size: 35px;
+    line-height: 10%;
+}
+
+div.content p {
+    color: hsl(0, 0%, 88%);
+}
+
+#Origin_Anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    /*visibility: hidden;*/
 }
