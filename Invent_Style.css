@@ -6,6 +6,11 @@ body {
     overflow: visible;
 }
 
+html {
+    margin:0;
+    padding:0;
+}
+
 h1 {
     position: fixed;
     color: red;
@@ -122,9 +127,9 @@ div.content p {
     color: hsl(0, 0%, 88%);
 }
 
-#Origin_Anchor {
+#Origin_Anchor, #Hardware_Anchor, #Software_Anchor {
     display: block;
     position: relative;
-    top: -150px;
+    top: -140px;
     /*visibility: hidden;*/
 }
