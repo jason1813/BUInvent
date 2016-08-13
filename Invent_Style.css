@@ -119,6 +119,7 @@ div.content h2 {
 }
 
 div.content h3 {
+    padding-top: 50px;
     font-size: 35px;
     line-height: 10%;
 }
@@ -128,5 +129,5 @@ div.content p {
 }
 
 h3 {
-    padding-top: 50px;
+    
 }
