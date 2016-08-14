@@ -95,16 +95,9 @@ ul.sidetabs li a:hover {
 
 /*Content stuff*/
 div.content {
-
-    /*display: block;
-    position: relative;
-    top: -250px;
-    visibility: hidden;*/
-
     display: block;
     position: absolute;
     left: 20px;
-    /*margin-top: 125px;*/
     top: 125px;
     z-index: -1;
     overflow: auto;
@@ -126,8 +119,4 @@ div.content h3 {
 
 div.content p {
     color: hsl(0, 0%, 88%);
-}
-
-h3 {
-    
 }
