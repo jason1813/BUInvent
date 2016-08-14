@@ -58,7 +58,6 @@ ul.toptabs li a:hover {background-color: #ddd;}
 }
 
 
-
 /* side TABS STUFF */
 ul.sidetabs {
     position: fixed;
@@ -103,20 +102,24 @@ div.content {
     overflow: auto;
 }
 
+/*tab over for sidetabs*/
 div.has-sidebar {
     left: 122px;
 }
 
+/*h2 content style*/
 div.content h2 {
     font-size: 40px;
 }
 
+/*h3 content style*/
 div.content h3 {
     padding-top: 50px;
     font-size: 35px;
     line-height: 10%;
 }
 
+/*paragraph content style*/
 div.content p {
     color: hsl(0, 0%, 88%);
 }
