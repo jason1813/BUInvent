@@ -1,0 +1,16 @@
+{
+    "remotePath": "./public_html",
+    "host": "buinvent.com",
+    "username": "buinvent@buinvent.com",
+    "password": "Jesussaves#623",
+    "port": 21,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git"
+    ]
+}
